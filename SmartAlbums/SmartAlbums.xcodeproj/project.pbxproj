@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4FD3ED237E92200043C41D /* OpenPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4FD3EC237E92200043C41D /* OpenPhotosViewController.m */; };
+		1B4FD3F02382E52E0043C41D /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FD3EE2382E52D0043C41D /* menu.png */; };
+		1B4FD3F12382E52E0043C41D /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FD3EF2382E52D0043C41D /* add.png */; };
+		1B4FD3F4238D21050043C41D /* DropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4FD3F3238D21050043C41D /* DropdownMenu.m */; };
+		1B4FD3F6239657600043C41D /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FD3F5239657600043C41D /* triangle.png */; };
+		1B4FD4002397AAB80043C41D /* guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FD3FD2397AAB80043C41D /* guide.png */; };
+		1B4FD4012397AAB80043C41D /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FD3FE2397AAB80043C41D /* setting.png */; };
+		1B4FD4042397AB0F0043C41D /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FD4032397AB0F0043C41D /* help.png */; };
 		1BF42EC923765CBB00BCB4DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF42EC823765CBB00BCB4DB /* AppDelegate.m */; };
 		1BF42ECC23765CBB00BCB4DB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF42ECB23765CBB00BCB4DB /* SceneDelegate.m */; };
 		1BF42ECF23765CBB00BCB4DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF42ECE23765CBB00BCB4DB /* ViewController.m */; };
@@ -14,9 +22,21 @@
 		1BF42ED423765CBD00BCB4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF42ED323765CBD00BCB4DB /* Assets.xcassets */; };
 		1BF42ED723765CBD00BCB4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF42ED523765CBD00BCB4DB /* LaunchScreen.storyboard */; };
 		1BF42EDA23765CBD00BCB4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF42ED923765CBD00BCB4DB /* main.m */; };
+		1BF42F23237BA72600BCB4DB /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF42F22237BA72600BCB4DB /* UIColor+Hex.m */; };
+		CFFB20B48663D19504702B9A /* Pods_SmartAlbums.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299E894E8025C3C7CF8B0E12 /* Pods_SmartAlbums.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B4FD3EB237E92200043C41D /* OpenPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenPhotosViewController.h; sourceTree = "<group>"; };
+		1B4FD3EC237E92200043C41D /* OpenPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenPhotosViewController.m; sourceTree = "<group>"; };
+		1B4FD3EE2382E52D0043C41D /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		1B4FD3EF2382E52D0043C41D /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		1B4FD3F2238D21050043C41D /* DropdownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownMenu.h; sourceTree = "<group>"; };
+		1B4FD3F3238D21050043C41D /* DropdownMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownMenu.m; sourceTree = "<group>"; };
+		1B4FD3F5239657600043C41D /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		1B4FD3FD2397AAB80043C41D /* guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide.png; sourceTree = "<group>"; };
+		1B4FD3FE2397AAB80043C41D /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		1B4FD4032397AB0F0043C41D /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
 		1BF42EC423765CBB00BCB4DB /* SmartAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF42EC723765CBB00BCB4DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BF42EC823765CBB00BCB4DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +49,11 @@
 		1BF42ED623765CBD00BCB4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF42ED823765CBD00BCB4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BF42ED923765CBD00BCB4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BF42F21237BA72600BCB4DB /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		1BF42F22237BA72600BCB4DB /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		299E894E8025C3C7CF8B0E12 /* Pods_SmartAlbums.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartAlbums.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		457DCC1C12F3E5022B523FB7 /* Pods-SmartAlbums.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartAlbums.release.xcconfig"; path = "Target Support Files/Pods-SmartAlbums/Pods-SmartAlbums.release.xcconfig"; sourceTree = "<group>"; };
+		F0539F1CED0005762D9D52DD /* Pods-SmartAlbums.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartAlbums.debug.xcconfig"; path = "Target Support Files/Pods-SmartAlbums/Pods-SmartAlbums.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +61,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFB20B48663D19504702B9A /* Pods_SmartAlbums.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4FD3E5237E91740043C41D /* OpenPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				1B4FD3E7237E91940043C41D /* View */,
+				1B4FD3E9237E91DA0043C41D /* ViewController */,
+				1B4FD3E8237E919D0043C41D /* Model */,
+				1B4FD3E6237E918D0043C41D /* ViewModel */,
+			);
+			path = OpenPhotos;
+			sourceTree = "<group>";
+		};
+		1B4FD3E6237E918D0043C41D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1B4FD3E7237E91940043C41D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B4FD3F2238D21050043C41D /* DropdownMenu.h */,
+				1B4FD3F3238D21050043C41D /* DropdownMenu.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B4FD3E8237E919D0043C41D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4FD3E9237E91DA0043C41D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B4FD3EB237E92200043C41D /* OpenPhotosViewController.h */,
+				1B4FD3EC237E92200043C41D /* OpenPhotosViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		1BF42EBB23765CBB00BCB4DB = {
 			isa = PBXGroup;
 			children = (
 				1BF42EC623765CBB00BCB4DB /* SmartAlbums */,
 				1BF42EC523765CBB00BCB4DB /* Products */,
+				7F4234E5102DE7487BEADECF /* Pods */,
+				68D63E1F17AF5389D4F74873 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +132,157 @@
 		1BF42EC623765CBB00BCB4DB /* SmartAlbums */ = {
 			isa = PBXGroup;
 			children = (
+				1BF42EE0237B946E00BCB4DB /* Main */,
+				1BF42EE2237B948D00BCB4DB /* Common */,
+				1BF42EE1237B947B00BCB4DB /* Expand */,
+				1BF42EE4237B949B00BCB4DB /* Vender */,
+				1BF42EE5237B94A800BCB4DB /* Resources */,
+				1BF42EE3237B949400BCB4DB /* AppEntry */,
+			);
+			path = SmartAlbums;
+			sourceTree = "<group>";
+		};
+		1BF42EE0237B946E00BCB4DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B4FD3E5237E91740043C41D /* OpenPhotos */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1BF42EE1237B947B00BCB4DB /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				1BF42F12237BA42B00BCB4DB /* Databasee */,
+				1BF42F11237BA41F00BCB4DB /* Network */,
+				1BF42F10237BA41300BCB4DB /* Category */,
+				1BF42F0F237BA40B00BCB4DB /* Tool */,
+				1BF42F0E237BA3FE00BCB4DB /* Macros */,
+				1BF42F0D237BA3F000BCB4DB /* Const */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		1BF42EE2237B948D00BCB4DB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1BF42F21237BA72600BCB4DB /* UIColor+Hex.h */,
+				1BF42F22237BA72600BCB4DB /* UIColor+Hex.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1BF42EE3237B949400BCB4DB /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
 				1BF42EC723765CBB00BCB4DB /* AppDelegate.h */,
 				1BF42EC823765CBB00BCB4DB /* AppDelegate.m */,
 				1BF42ECA23765CBB00BCB4DB /* SceneDelegate.h */,
 				1BF42ECB23765CBB00BCB4DB /* SceneDelegate.m */,
 				1BF42ECD23765CBB00BCB4DB /* ViewController.h */,
 				1BF42ECE23765CBB00BCB4DB /* ViewController.m */,
-				1BF42ED023765CBB00BCB4DB /* Main.storyboard */,
 				1BF42ED323765CBD00BCB4DB /* Assets.xcassets */,
-				1BF42ED523765CBD00BCB4DB /* LaunchScreen.storyboard */,
 				1BF42ED823765CBD00BCB4DB /* Info.plist */,
 				1BF42ED923765CBD00BCB4DB /* main.m */,
+				1BF42ED023765CBB00BCB4DB /* Main.storyboard */,
+				1BF42ED523765CBD00BCB4DB /* LaunchScreen.storyboard */,
 			);
-			path = SmartAlbums;
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		1BF42EE4237B949B00BCB4DB /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		1BF42EE5237B94A800BCB4DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BF42F0C237BA3E700BCB4DB /* Image */,
+				1BF42F0B237BA3E000BCB4DB /* Icon */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BF42F0B237BA3E000BCB4DB /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				1B4FD4032397AB0F0043C41D /* help.png */,
+				1B4FD3FD2397AAB80043C41D /* guide.png */,
+				1B4FD3FE2397AAB80043C41D /* setting.png */,
+				1B4FD3F5239657600043C41D /* triangle.png */,
+				1B4FD3EF2382E52D0043C41D /* add.png */,
+				1B4FD3EE2382E52D0043C41D /* menu.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		1BF42F0C237BA3E700BCB4DB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1BF42F0D237BA3F000BCB4DB /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		1BF42F0E237BA3FE00BCB4DB /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		1BF42F0F237BA40B00BCB4DB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1BF42F10237BA41300BCB4DB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1BF42F11237BA41F00BCB4DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1BF42F12237BA42B00BCB4DB /* Databasee */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Databasee;
+			sourceTree = "<group>";
+		};
+		68D63E1F17AF5389D4F74873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				299E894E8025C3C7CF8B0E12 /* Pods_SmartAlbums.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F4234E5102DE7487BEADECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0539F1CED0005762D9D52DD /* Pods-SmartAlbums.debug.xcconfig */,
+				457DCC1C12F3E5022B523FB7 /* Pods-SmartAlbums.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BF42EDD23765CBD00BCB4DB /* Build configuration list for PBXNativeTarget "SmartAlbums" */;
 			buildPhases = (
+				5D17F3B3D71FD8607F7BD5D3 /* [CP] Check Pods Manifest.lock */,
 				1BF42EC023765CBB00BCB4DB /* Sources */,
 				1BF42EC123765CBB00BCB4DB /* Frameworks */,
 				1BF42EC223765CBB00BCB4DB /* Resources */,
+				5E1A2DF0FEC9CD62BBCA8EE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,23 +344,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4FD3F02382E52E0043C41D /* menu.png in Resources */,
+				1B4FD3F6239657600043C41D /* triangle.png in Resources */,
+				1B4FD4042397AB0F0043C41D /* help.png in Resources */,
+				1B4FD4002397AAB80043C41D /* guide.png in Resources */,
 				1BF42ED723765CBD00BCB4DB /* LaunchScreen.storyboard in Resources */,
+				1B4FD4012397AAB80043C41D /* setting.png in Resources */,
 				1BF42ED423765CBD00BCB4DB /* Assets.xcassets in Resources */,
+				1B4FD3F12382E52E0043C41D /* add.png in Resources */,
 				1BF42ED223765CBB00BCB4DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D17F3B3D71FD8607F7BD5D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartAlbums-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1A2DF0FEC9CD62BBCA8EE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartAlbums/Pods-SmartAlbums-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartAlbums/Pods-SmartAlbums-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartAlbums/Pods-SmartAlbums-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BF42EC023765CBB00BCB4DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4FD3F4238D21050043C41D /* DropdownMenu.m in Sources */,
 				1BF42ECF23765CBB00BCB4DB /* ViewController.m in Sources */,
+				1BF42F23237BA72600BCB4DB /* UIColor+Hex.m in Sources */,
 				1BF42EC923765CBB00BCB4DB /* AppDelegate.m in Sources */,
 				1BF42EDA23765CBD00BCB4DB /* main.m in Sources */,
 				1BF42ECC23765CBB00BCB4DB /* SceneDelegate.m in Sources */,
+				1B4FD3ED237E92200043C41D /* OpenPhotosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +549,12 @@
 		};
 		1BF42EDE23765CBD00BCB4DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0539F1CED0005762D9D52DD /* Pods-SmartAlbums.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SmartAlbums/Info.plist;
+				DEVELOPMENT_TEAM = C7CG76JMDQ;
+				INFOPLIST_FILE = SmartAlbums/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,10 +567,12 @@
 		};
 		1BF42EDF23765CBD00BCB4DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457DCC1C12F3E5022B523FB7 /* Pods-SmartAlbums.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SmartAlbums/Info.plist;
+				DEVELOPMENT_TEAM = C7CG76JMDQ;
+				INFOPLIST_FILE = SmartAlbums/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
